@@ -1,0 +1,14 @@
+# 本项目验证过的版本（单卡 8GB / WSL Ubuntu 24.04 / Python 3.12）
+# 装 CUDA 版 torch 请用 pytorch.org 生成的命令，不要直接 pip install torch
+
+torch>=2.4
+transformers>=5.0,<6
+trl>=1.14,<2
+peft>=0.21,<1
+datasets>=5.0,<6
+accelerate>=1.15,<2
+bitsandbytes>=0.50,<1
+
+# 可选：只给 src/show_metrics.py 的分析用
+# pandas
+# pyarrow
